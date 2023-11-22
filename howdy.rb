@@ -19,8 +19,11 @@ my_string = "Hello, world!"
 # pp "rubies".singularize
 # pp "equipment".singularize
 
-pp "What's your name?"
+# pp "What's your name?"
 
-their_name = gets.chomp
+# their_name = gets.chomp
 
-puts "Hello, #{their_name}!"
+# puts "Hello, #{their_name}!"
+
+sym = :CHECK
+pp sym.downcase
